@@ -1,0 +1,10 @@
+time1 = Gauss_colfunction(10);
+time2 = Gauss_colfunction(50);
+time3 = Gauss_colfunction(100);
+time4 = Gauss_colfunction(200);
+X = [10,50,100,200];
+Y = [time1,time2,time3,time4];
+plot(X,Y,'-bo') ;
+title('Gauss-ColFunction');
+xlabel('Number of column');
+ylabel('Time');
